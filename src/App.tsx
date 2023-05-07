@@ -2,6 +2,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import typescriptLogo from '/typescript.svg'
 import './App.css'
+import ListaDeRepositorios from './components/ListaRepositorios'
+import Avatar from './components/Avatar'
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
         </a>
 
       </div>
-      <h2>Primeiro projeto React com o Vite.</h2>
+      <h2>Meu primeiro projeto React com o Vite.</h2>
+      <Avatar/>
+      <ListaDeRepositorios />
     </>
   )
 }
